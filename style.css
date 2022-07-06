@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+} /*remember to write this by default*/
+
+.heading{
+    background-color: aqua;
+    padding: 30px;
+    text-align: center;
+}
+
+/* .logo{
+    height: 150px;
+    width: 100px;
+    background-color: #5bee2f;
+    display: inline;
+} */
+
+.page-title{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+.recipe-list{
+
+    color: blueviolet;
+    text-align: center;
+    background-color: #aba7a7;
+}
+
+.recipe-list a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recipe-list li{
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #77ea97;
+}
+
+.recipe-list li:hover {
+    background-color: #2fee65;
+    
+}
